@@ -1,0 +1,49 @@
+<!doctype html>
+<HTML>
+<meta charset="UTF-8">
+<center>
+<BODY style="background-color:#becfdf;">
+<font color="black"><H1 style="background-color:#7ea9d4;">도서관 관리 시스템<BR>[도서 등록]</H1>
+<HR size=4>
+<UL type="disc">
+</ul>
+도서 입력 창입니다<BR>정보를 입력하고 등록 버튼을 눌러주세요
+<SCRIPT language="javascript">
+
+function check() {
+	var blank = 0 ;
+	if (form1.bookid.value == "") 
+   		blank = 1 ;
+  	if (form1.bookname.value == "") 
+    		blank = 1 ;
+  	if (form1.bookstate.value == "") 
+     		blank = 1 ;
+  	if (blank ==1) {
+         	alert("모든내용을입력해주세요") ;
+		return (false)
+	 } 
+	else {
+	return (true) ; 
+	 }
+}
+
+</SCRIPT>
+
+<FORM action=bookinsert.jsp method=post name=form1 onsubmit="return check();"><BR>
+<INPUT type="text" name="bookid" placeholder="도서번호" style="WIDTH: 170pt; HEIGHT: 20pt; color:#7ea9d4; background:#11234b; font-size:1.5em;"><BR><BR>
+<INPUT type="text" name="bookname" placeholder="도서제목" style="WIDTH: 170pt; HEIGHT: 20pt; color:#7ea9d4; background:#11234b; font-size:1.5em;"><BR><BR>
+<INPUT type="text" name="bookstate" placeholder="대출가능여부" style="WIDTH: 170pt; HEIGHT: 20pt; color:#7ea9d4; background:#11234b; font-size:1.5em;"><BR><BR>
+	
+	<INPUT type="submit" value="등록" style="WIDTH: 70pt; HEIGHT: 30pt; color:#7ea9d4; background:#11234b; font-size:1em;">
+	
+</FORM>
+</UL>
+<HR size=1>
+메인메뉴로 돌아가고 싶으신가요?
+<A href="Book.html"><font size="4" color="">[HOME]</font></A><BR><BR>
+<font size="1" color="">@2016341018 parksangwoo jspwork bookdatabase-idpw/books</font>
+
+
+</BODY>
+</center>
+</HTML>

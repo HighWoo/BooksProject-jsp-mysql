@@ -1,0 +1,44 @@
+<!doctype html>
+<HTML>
+<meta charset="UTF-8">
+<HEAD>
+
+
+</ul>
+<SCRIPT language="javascript">
+function check() {
+ var blank = 0 ;
+ if (form1.id.value == "") 	
+    blank = 1 ;
+ if (blank ==1) {
+  alert("빈칸이 있습니다 채워주세요.") ;
+  return (false)
+  } 
+ else {
+ return (true) ; 
+ }
+}
+</SCRIPT>
+</HEAD>
+<center>
+<BODY style="background-color:#becfdf;">
+<font color="black"><H1 style="background-color:#7ea9d4;">도서관 관리 시스템<br>[도서 검색]</H1>
+<HR size=4>
+<UL type="disc">
+</ul>
+도서제목을 입력하고 검색 버튼을 누르세요<br><br>
+
+<FORM action=booknameselect.jsp method=POST name=form1 onSubmit="return check();">
+<INPUT type="text" name="bookname" placeholder="도서제목" style="WIDTH: 200pt; HEIGHT: 40pt; color:#7ea9d4; background:#11234b; font-size:1.8em;"><BR><BR>
+
+
+
+<INPUT type="submit" value="검색" button style="WIDTH: 115pt; HEIGHT: 30pt; color:#7ea9d4; background:#11234b; font-size:1.5em;"><BR><BR>
+<HR size=1>
+메인메뉴로 돌아가고 싶은신가요?
+<A href="Book.html"><font size="4" color="">[HOME]</font></A><BR><BR>
+<font size="1" color="">@2016341018 parksangwoo jspwork bookdatabase-idpw/books</font>
+</FORM>
+</BODY>
+</center>
+</HTML>
