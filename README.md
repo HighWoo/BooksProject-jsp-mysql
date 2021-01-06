@@ -7,26 +7,34 @@
    회원가입에 필요한 프로그램 소스
    [Newuser.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/newuser.jsp) , 
    [Newuser.html](https://github.com/highcowoo/JspProjectBooks/blob/main/newuser.html) 
-   
-   [login.html](https://github.com/highcowoo/JspProjectBooks/blob/main/login.html)
+   로그인 프로그램 소스
+   [login.html](https://github.com/highcowoo/JspProjectBooks/blob/main/login.html)(기본 로그인 화면),
    [loglog.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/loglog.jsp)
     
 ### 메인화면
+   로그인 성공시 나오는 메인화면
    [Book.html](https://github.com/highcowoo/JspProjectBooks/blob/main/Book.html)
 
 ### 도서 등록
+   도서등록에 필요한 프로그램 소스
    [insert.html](https://github.com/highcowoo/JspProjectBooks/blob/main/bookinsert.html)
    [insert.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/bookinsert.jsp)
 
 ### 도서 검색
-   [nameselect.html](https://github.com/highcowoo/JspProjectBooks/blob/main/booknameselect.html)
+   도서를 이름으로 검색할 때
+   [nameselect.html](https://github.com/highcowoo/JspProjectBooks/blob/main/booknameselect.html),
    [nameselect.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/booknameselect.jsp)
-   [select.html](https://github.com/highcowoo/JspProjectBooks/blob/main/bookselect.html)
+   
+   도서를 책 NUM 으로 검색할때
+   [select.html](https://github.com/highcowoo/JspProjectBooks/blob/main/bookselect.html),
    [select.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/bookselect.jsp)
 
 ### 도서 전체 목록 확인
+   등록된 도서의 전체 목록을 확인
    [selectall.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/bookselectall.jsp)
 
 ### 도서 삭제 , 수정
-   [delect.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/bookdelete.jsp)
+   도서를 삭제할때
+   [delect.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/bookdelete.jsp),
+   도서 이름이나 내용 출판사 도서대출상황을 수정하고 싶을때
    [update.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/bookupdate.jsp)
