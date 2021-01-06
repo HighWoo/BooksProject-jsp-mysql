@@ -1,6 +1,9 @@
 # JspProjectBooks
 
 ## jsp와 mysql을 이용해 데이터베이스를 적용 도서를 관리 할 수 있는 프로그램
+
+### 프로그램 구조도
+
 ![image](https://user-images.githubusercontent.com/75231868/103737346-61d88280-5035-11eb-8761-2c9a288d819d.png)
 
 ### 회원가입 
@@ -44,3 +47,8 @@
    [delect.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/bookdelete.jsp),
    도서 이름이나 내용 출판사 도서대출상황을 수정하고 싶을때
    [update.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/bookupdate.jsp)
+
+
+### 사용 데이터 베이스
+   ![image](https://user-images.githubusercontent.com/75231868/103738854-0c51a500-5038-11eb-822a-80bd4a8bcfd0.png)
+   ![image](https://user-images.githubusercontent.com/75231868/103738893-18d5fd80-5038-11eb-91e2-69e419e797b1.png) 
