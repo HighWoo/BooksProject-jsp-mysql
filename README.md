@@ -10,6 +10,7 @@
    로그인 프로그램 소스
    [login.html](https://github.com/highcowoo/JspProjectBooks/blob/main/login.html)(기본 로그인 화면),
    [loglog.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/loglog.jsp)
+   ![image](https://user-images.githubusercontent.com/75231868/103738567-8c2b3f80-5037-11eb-9f1b-b66e353b14f7.png)
     
 ### 메인화면
    로그인 성공시 나오는 메인화면
