@@ -4,8 +4,9 @@
 ![image](https://user-images.githubusercontent.com/75231868/103737346-61d88280-5035-11eb-8761-2c9a288d819d.png)
 
 ### 회원가입 
+   회원가입에 필요한 프로그램 소스
    [Newuser.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/newuser.jsp) , 
-   [Newuser.html](https://github.com/highcowoo/JspProjectBooks/blob/main/newuser.html) 회원가입에 필요한 프로그램 소스
+   [Newuser.html](https://github.com/highcowoo/JspProjectBooks/blob/main/newuser.html) 
    
    [login.html](https://github.com/highcowoo/JspProjectBooks/blob/main/login.html)
    [loglog.jsp](https://github.com/highcowoo/JspProjectBooks/blob/main/loglog.jsp)
