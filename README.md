@@ -18,7 +18,8 @@
    로그인 성공시 나오는 메인화면
    [Book.html](https://github.com/highcowoo/JspProjectBooks/blob/main/Book.html)
    
-   https://github.com/highcowoo/JspProjectBooks/issues/3#issue-780139466
+  ![image](https://user-images.githubusercontent.com/75231868/103738683-c72d7300-5037-11eb-9f4e-2dd9150bad20.png)
+
 
 ### 도서 등록
    도서등록에 필요한 프로그램 소스
